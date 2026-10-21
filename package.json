@@ -1,0 +1,18 @@
+{
+  "name": "components-lab",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Zero to Hero React ep.2 checkpoint: a static page that must be split into components with prop contracts.",
+  "scripts": {
+    "test": "node --import tsx --test \"test/**/*.test.jsx\"",
+    "test:heldout": "node --import tsx --test \"held-out/**/*.test.jsx\""
+  },
+  "dependencies": {
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "tsx": "^4.20.0"
+  }
+}
